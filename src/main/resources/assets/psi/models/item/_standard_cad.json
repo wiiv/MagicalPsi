@@ -1,0 +1,51 @@
+{
+	"__comment": "Designed by Wiiv with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"1": "psi:items/cad_color"
+	},
+	"elements": [ 	 
+		{
+			"name": "colorizer",
+			"from": [ 7.5, 19, 7 ],
+			"to": [ 8.5, 22, 10 ],
+			"rotation": { "origin": [ 7.5, 19, 7 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 1, 0, 1 ], "texture": "#1", "tintindex": 1  },
+				"up": { "uv": [ 0, 1, 0, 1 ], "texture": "#1", "tintindex": 1  },
+				"north": { "uv": [ 0, 1, 0, 1 ], "texture": "#1", "tintindex": 1  },
+				"south": { "uv": [ 0, 1, 0, 1 ], "texture": "#1", "tintindex": 1  },
+				"west": { "uv": [ 0, 1, 0, 1 ], "texture": "#1", "tintindex": 1  },
+				"east": { "uv": [ 0, 1, 0, 1 ], "texture": "#1", "tintindex": 1  }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation":  [ 0, -4, 2 ]
+		},
+		"thirdperson_lefthand": {
+			"translation":  [ 0, -4, 2 ]
+		},
+		"firstperson_righthand": {
+			"translation":  [ 0, -6, -2 ]
+		},
+		"firstperson_lefthand": {
+			"translation":  [ 0, -6, -2 ]
+		},
+		"gui": {
+			"rotation":  [ 90, -45, 90 ],
+			"translation":  [ 2, -2, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		},
+		"ground": {
+			"rotation":  [ 0, 0, 90 ],
+			"translation":  [ 2, 0, 2 ]
+		},
+		"fixed": {
+			"rotation":  [ 90, 45, -90 ],
+			"translation":  [ -2, -2, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		}
+	}
+}

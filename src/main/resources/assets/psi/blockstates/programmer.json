@@ -1,0 +1,24 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "psi:programmer"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "facing": {
+    	"north": { "y": 180 },
+		"south": { },
+		"west":  { "y": 90 },
+		"east":  { "y": 270 }
+    },
+    "enabled": {
+    	"false": { },
+    	"true": { 
+    		"textures": {
+    			"0": "psi:blocks/programmer_top"
+    		}
+    	}
+    }
+  }
+}

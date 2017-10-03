@@ -1,0 +1,17 @@
+[
+{
+  "modid": "magipsi",
+  "name": "Magical Psi",
+  "description": "Magical Psionic Spellcasting Instruments",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "logoFile": "assets/magicpsi/textures/logo.png",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["wiiv, Vazkii"],
+  "credits": "",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
