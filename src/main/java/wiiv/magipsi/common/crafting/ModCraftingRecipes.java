@@ -5,7 +5,6 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import vazkii.arl.recipe.RecipeHandler;
 import vazkii.arl.util.ProxyRegistry;
-import vazkii.psi.common.Psi;
 import vazkii.psi.common.block.base.ModBlocks;
 import vazkii.psi.common.item.base.ModItems;
 
