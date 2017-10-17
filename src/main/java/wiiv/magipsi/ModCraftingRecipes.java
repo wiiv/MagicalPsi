@@ -55,27 +55,30 @@ public class ModCraftingRecipes {
 				'W', ProxyRegistry.newStack(Blocks.LOG));
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadCore, 1, 0),
-				" I ", "IDI", " I ",
+				"I  ", "DPD", "  I",
 				'I', "ingotIron",
-				'D', "dustPsi");
+				'D', "dustRedstone",
+				'P', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadCore, 1, 1),
-				" I ", "IDI", " I ",
-				'I', "ingotPsi",
-				'D', "dustRedstone");
+				"I  ", "DPD", "  I",
+				'I', "ingotGold",
+				'D', "dustRedstone",
+				'P', "ingotPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadCore, 1, 2),
-				" I ", "IDI", " I ",
-				'I', "ingotPsi",
-				'D', "dustGlowstone");
+				"I  ", "DPD", "  I",
+				'I', "ingotGold",
+				'D', "dustGlowstone",
+				'P', "ingotPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadCore, 1, 3),
-				" G ", "IDI", " G ",
-				'I', "ingotPsi",
-				'G', "gemPsi",
-				'D', "dustRedstone");
+				"I  ", "DPD", "  I",
+				'I', "ingotGold",
+				'D', "dustRedstone",
+				'P', "gemPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadCore, 1, 4),
-				" G ", "IDI", " G ",
-				'I', "ingotPsi",
-				'G', "gemPsi",
-				'D', "dustGlowstone");
+				"I  ", "DPD", "  I",
+				'I', "ingotGold",
+				'D', "dustGlowstone",
+				'P', "gemPsi");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadSocket, 1, 0),
 				"DI", "I ",
