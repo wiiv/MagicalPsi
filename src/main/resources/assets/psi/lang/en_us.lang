@@ -40,7 +40,7 @@ psimisc.spectator=[Spectator Mode]
 psimisc.multipleCads=The other Rod in your inventory is interfering with your cast. You can only have one Rod on you at a time.
 psimisc.providerMod=&7Addon: &9%s
 psimisc.trickPattern=^Trick: (.+)$
-psimisc.programmerHelp=&aInscriber Help
+psimisc.programmerHelp=&eInscriber Help
 psimisc.ctrlWindows=Ctrl
 psimisc.ctrlMac=Cmd
 psimisc.enterCommit=Press Enter to commit
@@ -220,26 +220,26 @@ psi.event.lowHp=&bEvent&7: Low Health
 # PROGRAMMER REFERENCE
 # %1$s is Ctrl or Cmd, depending on whether you're on windows or mac
 # spaces are important
-psi.programmerReference0= &bKeybinds
-psi.programmerReference1=  Delete Rune: &bDelete
-psi.programmerReference2=  Clear Grid: &b%1$s-Shift-Delete
-psi.programmerReference3=  Shift Grid: &b%1$s + Arrow Keys
-psi.programmerReference4=  Copy/Cut/Paste: &b%1$s-C/%1$s-X/%1$s-V
-psi.programmerReference5=  Undo/Redo: &b%1$s-Z/%1$s-Y
-psi.programmerReference6=  Open Panel/Select Rune: &bEnter
-psi.programmerReference7=  Set Parameter: &bNumber Keys + Arrow Keys
-psi.programmerReference8=  Set Comment: &b%1$s-D
-psi.programmerReference9=  Switch Focus: &bTab
-psi.programmerReference10=  Show Tooltip: &bAlt
-psi.programmerReference11=  Move Cursor: &bArrow Keys
-psi.programmerReference12=  Upload To Imgur: &b%1$s-Shift-Alt-G
-psi.programmerReference13=  Share To Reddit: &b%1$s-Shift-Alt-R
+psi.programmerReference0= &dKeybinds
+psi.programmerReference1=  Delete Rune: &dDelete
+psi.programmerReference2=  Clear Grid: &d%1$s-Shift-Delete
+psi.programmerReference3=  Shift Grid: &d%1$s + Arrow Keys
+psi.programmerReference4=  Copy/Cut/Paste: &d%1$s-C/%1$s-X/%1$s-V
+psi.programmerReference5=  Undo/Redo: &d%1$s-Z/%1$s-Y
+psi.programmerReference6=  Open Panel/Select Rune: &dEnter
+psi.programmerReference7=  Set Parameter: &dNumber Keys + Arrow Keys
+psi.programmerReference8=  Set Comment: &d%1$s-D
+psi.programmerReference9=  Switch Focus: &dTab
+psi.programmerReference10=  Show Tooltip: &dAlt
+psi.programmerReference11=  Move Cursor: &dArrow Keys
+psi.programmerReference12=  Upload To Imgur: &d%1$s-Shift-Alt-G
+psi.programmerReference13=  Share To Reddit: &d%1$s-Shift-Alt-R
 psi.programmerReference14=
-psi.programmerReference15= &bSearch Terms
-psi.programmerReference16=  Accepting Type: &bin:(type)
-psi.programmerReference17=  Outputting Type: &bout:(type)
-psi.programmerReference18=  Name Begins With: &b(name)_
-psi.programmerReference19=  Name Ends With: &b_(name)
+psi.programmerReference15= &dSearch Terms
+psi.programmerReference16=  Accepting Type: &din:(type)
+psi.programmerReference17=  Outputting Type: &dout:(type)
+psi.programmerReference18=  Name Begins With: &d(name)_
+psi.programmerReference19=  Name Ends With: &d_(name)
 
 # SPELl PIECE NAMES
 # -- SELECTORS

@@ -8,7 +8,7 @@
  *
  * File Created @ [20/02/2016, 22:41:34 (GMT)]
  */
-package wiiv.magipsi;
+package wiiv.magipsi.client;
 
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
@@ -16,7 +16,7 @@ import net.minecraft.entity.item.EntityArmorStand;
 import vazkii.arl.item.ModelModArmor;
 import vazkii.psi.client.core.handler.ClientTickHandler;
 
-public class ModelPsimetalExosuit extends ModelModArmor {
+public class ModelFocusingPlate extends ModelModArmor {
 
 	private final ModelRenderer helmAnchor;
 	private final ModelRenderer helm;
@@ -51,7 +51,7 @@ public class ModelPsimetalExosuit extends ModelModArmor {
 	
 	int slot = 0;
 
-	public ModelPsimetalExosuit(int slot) {
+	public ModelFocusingPlate(int slot) {
 		this.slot = slot;
 
 		textureWidth = 64;
@@ -209,7 +209,6 @@ public class ModelPsimetalExosuit extends ModelModArmor {
 	
 	@Override
 	public void setModelParts() {
-		
 		bipedHead = helmAnchor;
 		bipedBody = bodyAnchor;
 		bipedRightArm = armRAnchor;

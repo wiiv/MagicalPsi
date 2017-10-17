@@ -1,4 +1,4 @@
-package wiiv.magipsi;	
+package wiiv.magipsi.client;	
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,6 +14,7 @@ import net.minecraft.client.resources.IResourcePack;
 import net.minecraftforge.fml.common.FMLLog;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
+import wiiv.magipsi.MagicalPsi;
 
 public class ResourceProxy extends AbstractResourcePack {
 
