@@ -20,8 +20,6 @@ public class ModelFocusingPlate extends ModelModArmor {
 
 	private final ModelRenderer helmAnchor;
 	private final ModelRenderer helm;
-	private final ModelRenderer helmDetailr;
-	private final ModelRenderer helmDetaill;
 	
 	private final ModelRenderer bodyAnchor;
 	private final ModelRenderer body;
@@ -65,13 +63,6 @@ public class ModelFocusingPlate extends ModelModArmor {
         helm = new ModelRenderer(this, 0, 0);
         helm.setRotationPoint(0.0F, 0.0F, 0.0F);
         helm.addBox(-4.5F, -9.0F, -5.0F, 9, 9, 10, s);
-        helmDetaill = new ModelRenderer(this, 0, 0);
-        helmDetaill.mirror = true;
-        helmDetaill.setRotationPoint(0.0F, 0.0F, 0.0F);
-        helmDetaill.addBox(4.5F, -5.0F, 0.0F, 1, 3, 3, s);
-        helmDetailr = new ModelRenderer(this, 0, 0);
-        helmDetailr.setRotationPoint(0.0F, 0.0F, 0.0F);
-        helmDetailr.addBox(-5.5F, -5.0F, 0.0F, 1, 3, 3, s);
         
         //sensor
         sensor = new ModelRenderer(this, 38, 0);
@@ -161,8 +152,6 @@ public class ModelFocusingPlate extends ModelModArmor {
         
         //hierarchy
         helmAnchor.addChild(helm);
-        helm.addChild(helmDetaill);
-        helm.addChild(helmDetailr);
         helm.addChild(sensor);
         sensor.addChild(sensorColor);
         

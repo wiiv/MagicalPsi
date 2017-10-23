@@ -81,42 +81,43 @@ public class ModCraftingRecipes {
 				'P', "gemPsi");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadSocket, 1, 0),
-				"DI", "I ",
-				'I', "ingotIron",
+				"DW", "W ",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadSocket, 1, 1),
-				"DI", "I ",
+				"DIW", "IW ", "W  ",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
 				'I', "ingotPsi",
 				'D', "dustRedstone");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadSocket, 1, 2),
-				"DI", "I ",
+				"DIW", "IW ", "W  ",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
 				'I', "ingotPsi",
 				'D', "dustGlowstone");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadSocket, 1, 3),
-				"DI", "IG",
+				"DIW", "IG ", "W  ",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
 				'I', "ingotPsi",
 				'G', "gemPsi",
 				'D', "dustRedstone");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadSocket, 1, 4),
-				"DI", "IG",
+				"DIW", "IG ", "W  ",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
 				'I', "ingotPsi",
 				'G', "gemPsi",
 				'D', "dustGlowstone");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadBattery, 1, 0),
-				"I", "D", "G",
-				'I', "ingotIron",
-				'G', "ingotGold",
+				"I", "D", "I",
+				'I', "ingotGold",
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadBattery, 1, 1),
-				"I", "D", "G",
-				'I', "ingotIron",
-				'G', "ingotGold",
+				"I", "D", "I",
+				'I', "ingotGold",
 				'D', "ingotPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadBattery, 1, 2),
-				"I", "D", "G",
-				'I', "ingotIron",
-				'G', "ingotGold",
+				"I", "D", "I",
+				'I', "ingotGold",
 				'D', "gemPsi");
 
 		String[] dyes = {
@@ -142,67 +143,81 @@ public class ModCraftingRecipes {
 				'D', "dustPsi");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 0),
-				"ID",
-				'I', "ingotIron",
+				"DP", " W",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'P', ProxyRegistry.newStack(Items.PAPER),
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 2),
-				"AID",
+				"APD", "  W",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'P', ProxyRegistry.newStack(Items.PAPER),
 				'A', ProxyRegistry.newStack(Items.ARROW),
-				'I', "ingotIron",
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 4),
-				"AID",
+				"APD", "  W",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'P', ProxyRegistry.newStack(Items.PAPER),
 				'A', ProxyRegistry.newStack(Items.STRING),
-				'I', "ingotIron",
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 6),
-				"AID",
+				"APD", "  W",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'P', ProxyRegistry.newStack(Items.PAPER),
 				'A', "slimeball",
-				'I', "ingotIron",
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 6),
-				"AID",
+				"APD", "  W",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'P', ProxyRegistry.newStack(Items.PAPER),
 				'A', ProxyRegistry.newStack(Items.SNOWBALL),
-				'I', "ingotIron",
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 8),
-				"AID",
+				"APD", "  W",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'P', ProxyRegistry.newStack(Items.PAPER),
 				'A', ProxyRegistry.newStack(Items.GUNPOWDER),
-				'I', "ingotIron",
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 10),
-				"AID",
+				"APD", "  W",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'P', ProxyRegistry.newStack(Items.PAPER),
 				'A', "dustRedstone",
-				'I', "ingotIron",
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 12),
-				"AID",
+				"APD", "  W",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'P', ProxyRegistry.newStack(Items.PAPER),
 				'A', ProxyRegistry.newStack(Blocks.STONE_BUTTON),
-				'I', "ingotIron",
 				'D', "dustPsi");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellDrive),
-				"I", "R", "I",
+				"WIW", "PRP", "PIP",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'P', ProxyRegistry.newStack(Items.PAPER),
 				'I', "ingotPsi",
 				'R', "dustRedstone");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.psimetalShovel),
-				"GP", " I", " I",
+				"GP", " W", " I",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.psimetalPickaxe),
-				"PGP", " I ", " I ",
+				"PGP", " W ", " I ",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.psimetalAxe),
-				"GP", "PI", " I",
+				"GP", "PW", " I",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.psimetalSword),
-				"P", "G", "I",
+				" P", "IG", " W",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
@@ -228,37 +243,40 @@ public class ModCraftingRecipes {
 				" B ", "IPI",
 				'P', "dustPsi",
 				'B', ProxyRegistry.newStack(Blocks.STONE_BUTTON),
-				'I', "ingotIron");
+				'I', "ingotGold");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.exosuitController),
-				"R", "G", "I",
+				"WRW", "PGP", "WIW",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'P', ProxyRegistry.newStack(Items.PAPER),
 				'R', "dustRedstone",
 				'G', "blockGlassColorless",
 				'I', "ingotPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.vectorRuler),
-				"D", "I", "I",
+				"D", "W", "I",
+				'W', ProxyRegistry.newStack(Blocks.LOG),
 				'D', "dustPsi",
-				'I', "ingotIron");
+				'I', "ingotGold");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.exosuitSensor, 1, 0),
 				" I ", "IMR", " R ",
 				'M', "dustGlowstone",
 				'I', "ingotPsi",
-				'R', "ingotIron");
+				'R', "ingotGold");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.exosuitSensor, 1, 1),
 				" I ", "IMR", " R ",
 				'M', "shardPrismarine",
 				'I', "ingotPsi",
-				'R', "ingotIron");
+				'R', "ingotGold");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.exosuitSensor, 1, 2),
 				" I ", "IMR", " R ",
 				'M', ProxyRegistry.newStack(Items.FIRE_CHARGE),
 				'I', "ingotPsi",
-				'R', "ingotIron");
+				'R', "ingotGold");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.exosuitSensor, 1, 3),
 				" I ", "IMR", " R ",
 				'M', ProxyRegistry.newStack(Items.SPECKLED_MELON),
 				'I', "ingotPsi",
-				'R', "ingotIron");
+				'R', "ingotGold");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModBlocks.psiDecorative, 1, 0),
 				"OOO", "OOO", "OOO",
