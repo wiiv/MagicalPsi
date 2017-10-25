@@ -74,6 +74,8 @@ public class ResourceProxy extends AbstractResourcePack {
 
 		if(!name.startsWith("/"))
 			name = "/" + name;
+		
+		FMLLog.info("Stream for " + name + " resolves to = " + MagicalPsi.class.getResourceAsStream(name));
 
 		return MagicalPsi.class.getResourceAsStream(name);
 	}
