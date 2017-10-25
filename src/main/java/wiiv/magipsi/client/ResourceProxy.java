@@ -75,8 +75,11 @@ public class ResourceProxy extends AbstractResourcePack {
 		if(!name.startsWith("/"))
 			name = "/" + name;
 		
-		FMLLog.info("Stream for " + name + " resolves to = " + MagicalPsi.class.getResourceAsStream(name));
-
+		if(name.contains("tab_psi.png"))
+			name = "/assets/magipsi/textures/misc/tab_psi.png";
+		
+		name = name.replaceAll("\\/assets\\/psi", "/assets/magipsi");
+		
 		return MagicalPsi.class.getResourceAsStream(name);
 	}
 
