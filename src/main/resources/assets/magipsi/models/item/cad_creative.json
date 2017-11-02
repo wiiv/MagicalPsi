@@ -88,10 +88,5 @@
 				"east": { "uv": [ 2, 0, 6, 4 ], "texture": "#0" }
 			}
 		}
-	],
-	"display": {
-		"thirdperson_lefthand": {
-			"translation":  [ 0, -4, 2 ]
-		}
-	}
+	]
 }
