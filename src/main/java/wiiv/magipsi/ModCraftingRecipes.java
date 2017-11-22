@@ -6,11 +6,15 @@ import net.minecraft.item.ItemStack;
 import vazkii.arl.recipe.RecipeHandler;
 import vazkii.arl.util.ProxyRegistry;
 import vazkii.psi.common.block.base.ModBlocks;
+import vazkii.psi.common.core.handler.ConfigHandler;
 import vazkii.psi.common.item.base.ModItems;
 
 public class ModCraftingRecipes {
 
 	public static void init() {
+		if(ConfigHandler.magipsiClientSide)
+			return;
+		
 		addOreDictRecipe(ProxyRegistry.newStack(ModBlocks.cadAssembler),
 				"GWG", "WPW", " G ",
 				'G', "ingotGold",
