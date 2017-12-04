@@ -18,14 +18,14 @@ public class ModCraftingRecipes {
 		addOreDictRecipe(ProxyRegistry.newStack(ModBlocks.cadAssembler),
 				"GWG", "WPW", " G ",
 				'G', "ingotGold",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'P', ProxyRegistry.newStack(Blocks.PISTON));
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModBlocks.programmer),
 				"WMW", "WDW", "G G",
 				'G', "ingotGold",
 				'M', ProxyRegistry.newStack(Items.MAP),
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'D', "dustPsi");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.material, 1, 3),
@@ -40,23 +40,23 @@ public class ModCraftingRecipes {
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadAssembly, 1, 0),
 				"I  ", "IWI", "  I",
 				'I', "ingotIron",
-				'W', ProxyRegistry.newStack(Blocks.LOG));
+				'W', "logWood");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadAssembly, 1, 1),
 				"I  ", "IWI", "  I",
 				'I', "ingotGold",
-				'W', ProxyRegistry.newStack(Blocks.LOG));
+				'W', "logWood");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadAssembly, 1, 2),
 				"I  ", "IWI", "  I",
 				'I', "ingotPsi",
-				'W', ProxyRegistry.newStack(Blocks.LOG));
+				'W', "logWood");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadAssembly, 1, 3),
 				"I  ", "IWI", "  I",
 				'I', "ingotEbonyPsi",
-				'W', ProxyRegistry.newStack(Blocks.LOG));
+				'W', "logWood");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadAssembly, 1, 4),
 				"I  ", "IWI", "  I",
 				'I', "ingotIvoryPsi",
-				'W', ProxyRegistry.newStack(Blocks.LOG));
+				'W', "logWood");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadCore, 1, 0),
 				"I  ", "DPD", "  I",
@@ -86,27 +86,27 @@ public class ModCraftingRecipes {
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadSocket, 1, 0),
 				"DW", "W ",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadSocket, 1, 1),
 				"DIW", "IW ", "W  ",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'I', "ingotPsi",
 				'D', "dustRedstone");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadSocket, 1, 2),
 				"DIW", "IW ", "W  ",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'I', "ingotPsi",
 				'D', "dustGlowstone");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadSocket, 1, 3),
 				"DIW", "IG ", "W  ",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'I', "ingotPsi",
 				'G', "gemPsi",
 				'D', "dustRedstone");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.cadSocket, 1, 4),
 				"DIW", "IG ", "W  ",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'I', "ingotPsi",
 				'G', "gemPsi",
 				'D', "dustGlowstone");
@@ -148,80 +148,80 @@ public class ModCraftingRecipes {
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 0),
 				"DP", " W",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
-				'P', ProxyRegistry.newStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 2),
 				"APD", "  W",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
-				'P', ProxyRegistry.newStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', ProxyRegistry.newStack(Items.ARROW),
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 4),
 				"APD", "  W",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
-				'P', ProxyRegistry.newStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', ProxyRegistry.newStack(Items.STRING),
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 6),
 				"APD", "  W",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
-				'P', ProxyRegistry.newStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', "slimeball",
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 6),
 				"APD", "  W",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
-				'P', ProxyRegistry.newStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', ProxyRegistry.newStack(Items.SNOWBALL),
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 8),
 				"APD", "  W",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
-				'P', ProxyRegistry.newStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', ProxyRegistry.newStack(Items.GUNPOWDER),
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 10),
 				"APD", "  W",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
-				'P', ProxyRegistry.newStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', "dustRedstone",
 				'D', "dustPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellBullet, 1, 12),
 				"APD", "  W",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
-				'P', ProxyRegistry.newStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', ProxyRegistry.newStack(Blocks.STONE_BUTTON),
 				'D', "dustPsi");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.spellDrive),
 				"WIW", "PRP", "PIP",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
-				'P', ProxyRegistry.newStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'I', "ingotPsi",
 				'R', "dustRedstone");
 
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.psimetalShovel),
 				"GP", " W", " I",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.psimetalPickaxe),
 				"PGP", " W ", " I ",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.psimetalAxe),
 				"GP", "PW", " I",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.psimetalSword),
 				" P", "IG", " W",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
@@ -250,14 +250,14 @@ public class ModCraftingRecipes {
 				'I', "ingotGold");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.exosuitController),
 				"WRW", "PGP", "WIW",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
-				'P', ProxyRegistry.newStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'R', "dustRedstone",
 				'G', "blockGlassColorless",
 				'I', "ingotPsi");
 		addOreDictRecipe(ProxyRegistry.newStack(ModItems.vectorRuler),
 				"D", "W", "I",
-				'W', ProxyRegistry.newStack(Blocks.LOG),
+				'W', "logWood",
 				'D', "dustPsi",
 				'I', "ingotGold");
 
