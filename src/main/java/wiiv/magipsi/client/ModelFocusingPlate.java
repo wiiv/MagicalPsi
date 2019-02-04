@@ -14,7 +14,7 @@ import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityArmorStand;
 import vazkii.arl.item.ModelModArmor;
-import vazkii.psi.client.core.handler.ClientTickHandler;
+import vazkii.arl.util.ClientTicker;
 
 public class ModelFocusingPlate extends ModelModArmor {
 
@@ -192,7 +192,7 @@ public class ModelFocusingPlate extends ModelModArmor {
 		bipedHeadwear.showModel = false;
 
 		setModelParts();
-		prepareForRender(entity, ClientTickHandler.partialTicks);
+		prepareForRender(entity, ClientTicker.partialTicks);
 		super.render(entity, f, f1, f2, f3, f4, f5);
 	}
 	

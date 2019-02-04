@@ -11,7 +11,6 @@ import com.google.common.collect.ImmutableSet;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.AbstractResourcePack;
 import net.minecraft.client.resources.IResourcePack;
-import net.minecraftforge.fml.common.FMLLog;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
 import wiiv.magipsi.MagicalPsi;
@@ -25,14 +24,14 @@ public class ResourceProxy extends AbstractResourcePack {
 	private static final String PACK_META = "pack.mcmeta";
 	private static final String PROXYPACK_META = "/proxypack.mcmeta";
 
-	private static final HashMap<String, Boolean> found = new HashMap();
+	private static final HashMap<String, Boolean> found = new HashMap<>();
 
 	public static void init() {
 		List<IResourcePack> resourcePacks = ReflectionHelper.getPrivateValue(Minecraft.class, Minecraft.getMinecraft(), DEFAULT_RESOURCE_PACKS);
 		IResourcePack resourceProxy = new ResourceProxy();
 		resourcePacks.add(resourceProxy);
 
-		FMLLog.info("[Magical Psi] Hooked Proxy Resource Pack");
+		MagicalPsi.LOGGER.info("Hooked Proxy Resource Pack");
 	}
 
 	private ResourceProxy() {

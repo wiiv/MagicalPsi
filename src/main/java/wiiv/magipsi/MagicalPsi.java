@@ -1,11 +1,12 @@
 package wiiv.magipsi;
 
 import net.minecraftforge.fml.common.FMLCommonHandler;
-import net.minecraftforge.fml.common.FMLLog;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import wiiv.magipsi.proxy.CommonProxy;
 
 @Mod(modid = MagicalPsi.MOD_ID, name = MagicalPsi.MOD_NAME, version = MagicalPsi.VERSION, dependencies = MagicalPsi.DEPENDENCIES)
@@ -18,6 +19,8 @@ public class MagicalPsi {
 
 	public static final String COMMON_PROXY = "wiiv.magipsi.proxy.CommonProxy";
 	public static final String CLIENT_PROXY = "wiiv.magipsi.proxy.ClientProxy";
+	
+	public static final Logger LOGGER = LogManager.getLogger(MOD_NAME);
 	
 	@SidedProxy(serverSide = COMMON_PROXY, clientSide = CLIENT_PROXY)
 	public static CommonProxy proxy;
@@ -43,8 +46,7 @@ public class MagicalPsi {
 			Class<?> clazz = Class.forName(classname);
 			clazz.getMethod("init").invoke(null);
 		} catch(Throwable e) {
-			FMLLog.severe("[Magical Psi] Could not hook Resource Proxy.");
-			e.printStackTrace();
+			LOGGER.error("Could not hook Resource Proxy.", e);
 		}
 	}
 
