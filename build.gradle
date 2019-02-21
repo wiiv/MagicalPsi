@@ -41,8 +41,8 @@ repositories {
     }
 }
 dependencies {
-    deobfCompile 'vazkii.autoreglib:AutoRegLib:1.3-27.10'
-    deobfCompile 'psi:Psi:r1.1:70'
+    deobfCompile 'vazkii.autoreglib:AutoRegLib:1.3-27.13'
+    deobfCompile 'psi:Psi:r1.1:72'
 }
 
 processResources {
